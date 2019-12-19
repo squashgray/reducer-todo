@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-image: url("./img/coffee.jpg");
+  background-color: red;
 }
 
 .App-logo {
