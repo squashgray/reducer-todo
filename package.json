@@ -1,6 +1,9 @@
 {
   "name": "reducer-todo",
   "version": "0.1.0",
+  "scripts": {
+    "build": "next build"
+  },
   "private": true,
   "dependencies": {
     "react": "^16.12.0",
