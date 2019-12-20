@@ -20,9 +20,6 @@ body {
   font-family: "Roboto", sans-serif;
   text-align: center;
   max-width: 30%;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  height: 100%;
 }
 
 .header {
@@ -55,6 +52,7 @@ body {
 
 .cont {
   margin-top: 50px;
+
   /* background-color: white; */
   width: 500px;
   padding: 30px;
@@ -68,4 +66,36 @@ body {
 .title {
   color: white;
   margin-left: 3%;
+}
+
+.input {
+  display: "flex";
+  justify-content: "space-between";
+  width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .App {
+    max-width: 50%;
+  }
+  .cont {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-right: 1000%;
+  }
+  body {
+    height: 500px;
+  }
+}
+
+@media (max-width: 900px) {
+  .App {
+    width: 50%;
+    padding-right: 25%;
+  }
+  .cont {
+    width: 130%;
+  }
 }
